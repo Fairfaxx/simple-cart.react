@@ -7,6 +7,7 @@ import { cartReducer } from './reducers/cartReducer';
 // import { BreakingBadApi } from './components/BreakingBadApi';
 
 function App() {
+  //Check min 17
   const [state, dispatch] = useReducer(cartReducer, {
     products: [],
     cart: [],
